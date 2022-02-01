@@ -23,3 +23,56 @@ function anagramCheck(uday, pavan){
 }
 
 anagramCheck('kkj','jkk')
+
+
+'{[()]}'
+
+9
+
+str1 = aakb   primary
+str2 = cab    anagram str1
+
+str1 obj = {
+    a: {
+        read: undefined,
+        count : 2
+    },
+    k:{
+        read: undefined,
+        count : 2
+    },
+    b:{
+        read: undefined,
+        count : 1
+    }
+}
+
+str2obj = {
+    c:{
+        read: true,
+        count: 1
+    },
+    a:{
+        read: undefined,
+        count : 2
+    },
+    b:{
+        read: undefined,
+        count : 1
+    }
+}
+
+operations on second string:
+ab
+aba
+
+abc,cbb
+
+
+
+=TEXT(44193+(WEEKNUM(U10,2)-1)*7,"YYYY/MM/DD")
+
+
+=_xlfn.IFS(YEAR(V10)=9999,"#VALUE!",YEAR(V10)=2021,TEXT(44193+(WEEKNUM(V10,2)-1)*7,"YYYY/MM/DD"),YEAR(V10)=2022,TEXT(44557+(WEEKNUM(V10,2)-1)*7,"YYYY/MM/DD"))
+
+
